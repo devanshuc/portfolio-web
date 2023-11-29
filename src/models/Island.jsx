@@ -8,7 +8,7 @@ import islandScene from "../assets/3d/island.glb";
 
 const Island = (props) => {
   const islandRef = useRef();
-  const { nodes, materials } = useGLTF("/island.glb");
+  const { nodes, materials } = useGLTF(islandScene);
   return (
     <a.group ref={islandRef} {...props}>
       <mesh
