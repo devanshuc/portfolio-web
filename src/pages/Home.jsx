@@ -1,8 +1,7 @@
 import { Canvas } from "@react-three/fiber";
 import { Suspense } from "react";
 import Loader from "../components/Loader";
-import Island from "../models/Island";
-import Sky from "../models/Sky";
+import { Island, Sky, Bird, Plane } from "../models";
 
 {
   /* <div className="absolute top-28 left-0 right-0 z-10 flex justify-center items-center">
@@ -45,12 +44,14 @@ const Home = () => {
             intensity={1}
           />
 
+          <Bird />
           <Sky />
           <Island
             position={islandPosition}
             scale={islandScale}
             rotation={islandRotation}
           />
+          <Plane />
         </Suspense>
       </Canvas>
     </section>
