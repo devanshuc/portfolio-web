@@ -1,4 +1,5 @@
 import React from "react";
+import InfoBox from "./InfoBox";
 
 const renderContent = {
   1: (
@@ -7,9 +8,27 @@ const renderContent = {
       <br />A Software Engineer from India
     </h1>
   ),
-  2: <p>2</p>,
-  3: <p>3</p>,
-  4: <p>4</p>,
+  2: (
+    <InfoBox
+      text="Worked as Full Stack Developer and picked up lot of skills along the way."
+      link={"/about"}
+      btnText={"Learn More"}
+    />
+  ),
+  3: (
+    <InfoBox
+      text="Built multiple projects over the years. Curious about the impact?"
+      link={"/projects"}
+      btnText={"Visit my portfolio"}
+    />
+  ),
+  4: (
+    <InfoBox
+      text="Looking for a Dev? or need a project done? I am just a few keystrokes away."
+      link={"/contact"}
+      btnText={"Lets Talk!"}
+    />
+  ),
 };
 
 const HomeInfo = ({ currentStage }) => {
