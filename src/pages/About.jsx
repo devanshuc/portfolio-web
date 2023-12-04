@@ -1,3 +1,4 @@
+import CTA from "./sub_pages/CTA";
 import Experiences from "./sub_pages/Experiences";
 import Skills from "./sub_pages/Skills";
 
@@ -19,6 +20,8 @@ const About = () => {
 
       <Skills />
       <Experiences />
+      <hr className="border-slate-200" />
+      <CTA />
     </section>
   );
 };
