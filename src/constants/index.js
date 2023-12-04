@@ -1,9 +1,7 @@
 import { pb, ongc } from "../assets/images";
 import {
-  car,
   contact,
   css,
-  estate,
   express,
   git,
   github,
@@ -17,7 +15,6 @@ import {
   pricewise,
   react,
   redux,
-  snapgram,
   summiz,
   tailwindcss,
   threads,
@@ -142,11 +139,11 @@ export const socialLinks = [
 
 export const projects = [
   {
-    iconUrl: summiz,
-    theme: "btn-back-yellow",
+    iconUrl: pricewise,
+    theme: "btn-back-black",
     name: "EduVerse",
     description:
-      "Engineered EduVerse, a cutting-edge learning platform, integrating JWT authentication for robust security and enabling 40% faster login times while ensuring user data privacy. Leveraged the power of React and Recoil to eliminate prop drilling, significantly enhancing frontend performance with up to 35% rendering efficiency improvements. Orchestrated the seamless deployment of EduVerse on AWS, showcasing adaptability and reducing server response times by 15%, leading to a 50% boost in overall system scalability. Employed TypeScript for enhanced code maintainability, providing type safety and streamlining development, ultimately contributing to a 20% reduction in code-related issues.",
+      "Engineered EduVerse, a cutting-edge learning platform, integrating JWT authentication for robust security and enabling 40% faster login times while ensuring user data privacy. Leveraged the power of React and Recoil to eliminate prop drilling, significantly enhancing frontend performance with up to 35% rendering efficiency improvements.",
     link: "https://github.com/devanshuc",
   },
   {
