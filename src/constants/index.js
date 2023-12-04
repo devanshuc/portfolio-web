@@ -104,7 +104,7 @@ export const experiences = [
     company_name: "Pitney Bowes",
     icon: pb,
     iconBg: "#accbe1",
-    date: "March 2020 - April 2021",
+    date: "Jan 2022 - Jul 2022",
     points: [
       "Spearheaded pivotal advancements in PitneyShipPro, orchestrating a 40% reduction in manual data entry through seamless API integrations.",
       "Managed the ’Route Management’ module, optimizing delivery routes and achieving a 15% reduction in delivery time. Demonstrated design expertise, enhancing project efficiency by 20% in a global context.",
