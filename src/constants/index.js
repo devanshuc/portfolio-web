@@ -142,51 +142,27 @@ export const socialLinks = [
 
 export const projects = [
   {
-    iconUrl: pricewise,
-    theme: "btn-back-red",
-    name: "Amazon Price Tracker",
+    iconUrl: summiz,
+    theme: "btn-back-yellow",
+    name: "EduVerse",
     description:
-      "Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.",
-    link: "https://github.com/adrianhajdin/pricewise",
-  },
-  {
-    iconUrl: threads,
-    theme: "btn-back-green",
-    name: "Full Stack Threads Clone",
-    description:
-      'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
-    link: "https://github.com/adrianhajdin/threads",
-  },
-  {
-    iconUrl: car,
-    theme: "btn-back-blue",
-    name: "Car Finding App",
-    description:
-      "Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.",
-    link: "https://github.com/adrianhajdin/project_next13_car_showcase",
-  },
-  {
-    iconUrl: snapgram,
-    theme: "btn-back-pink",
-    name: "Full Stack Instagram Clone",
-    description:
-      "Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.",
-    link: "https://github.com/adrianhajdin/social_media_app",
-  },
-  {
-    iconUrl: estate,
-    theme: "btn-back-black",
-    name: "Real-Estate Application",
-    description:
-      "Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.",
-    link: "https://github.com/adrianhajdin/projects_realestate",
+      "Engineered EduVerse, a cutting-edge learning platform, integrating JWT authentication for robust security and enabling 40% faster login times while ensuring user data privacy. Leveraged the power of React and Recoil to eliminate prop drilling, significantly enhancing frontend performance with up to 35% rendering efficiency improvements. Orchestrated the seamless deployment of EduVerse on AWS, showcasing adaptability and reducing server response times by 15%, leading to a 50% boost in overall system scalability. Employed TypeScript for enhanced code maintainability, providing type safety and streamlining development, ultimately contributing to a 20% reduction in code-related issues.",
+    link: "https://github.com/devanshuc",
   },
   {
     iconUrl: summiz,
     theme: "btn-back-yellow",
-    name: "AI Summarizer Application",
+    name: "Summify",
     description:
-      "App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.",
-    link: "https://github.com/adrianhajdin/project_ai_summarizer",
+      "A game-changing AI-driven Article Summarization SaaS Application, powered by OpenAI’s GPT model which enables a user to read 5x more articles daily. Achieved lightning-fast query fetching times, through the integration of React, Vite, and Tailwind CSS. Seamlessly managed global state with Redux Toolkit, leading to a 30% reduction in page loading times.",
+    link: "https://github.com/devanshuc/Summify",
+  },
+  {
+    iconUrl: threads,
+    theme: "btn-back-blue",
+    name: "GPT-Clone",
+    description:
+      "Designed a visually striking website on ChatGPT, while adhering to HCI principles. Transformed the Figma design into a fully functional website using React as the frontend framework. Achieved a 40% improvement in loading speed and up to 35% rendering efficiency enhancements through precise design implementation using JavaScript, HTML, CSS, and React. Designed with a user-centric approach on Figma and precisely cloned onto a React Vite project to optimize user engagement. Also deployed the website on Netlify for wider accessibility.",
+    link: "https://github.com/devanshuc/GPT-clone-design",
   },
 ];
