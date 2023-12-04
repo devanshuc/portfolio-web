@@ -1,4 +1,7 @@
 import { skills } from "../constants/index";
+
+import Experiences from "./Experiences";
+
 const About = () => {
   return (
     <section className="max-container">
@@ -39,6 +42,7 @@ const About = () => {
             Devlopment through hands on learning and building applications.
           </p>
         </div>
+        <Experiences />
       </div>
     </section>
   );
